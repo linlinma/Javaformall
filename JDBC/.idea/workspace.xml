@@ -50,9 +50,22 @@
       <recent name="D:\GitHubDesktopSetup\188111541106\Javaformall\JDBC\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JDBCDemo1">
+  <component name="RunManager" selected="Application.JDBCDemo2">
     <configuration name="JDBCDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.JDBCDemo1" />
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.JDBCDemo2" />
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
@@ -77,9 +90,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.JDBCDemo1" />
+      <item itemvalue="Application.JDBCDemo2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBCDemo2" />
         <item itemvalue="Application.JDBCDemo1" />
       </list>
     </recent_temporary>
@@ -94,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605686567970</updated>
-      <workItem from="1605686570563" duration="1979000" />
+      <workItem from="1605686570563" duration="4166000" />
     </task>
     <servers />
   </component>
