@@ -7,6 +7,7 @@ import java.sql.Statement;
 
 /*
 * Jdbc链接musql实例
+* 更新操作
 * */
 public class JDBCDemo1 {
     public static void main(String[] args) throws Exception {
@@ -19,7 +20,7 @@ public class JDBCDemo1 {
         String sql= "update account set balance=500 where id=1";
         //5、获取数据库连接对象statement
         Statement stat=conn.createStatement();
-        //6、执行sql
+        //6、执行sql 返回影响结果行数
         int i =stat.executeUpdate(sql);
         //7、处理结果
         if (i==1){

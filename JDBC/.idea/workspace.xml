@@ -50,7 +50,7 @@
       <recent name="D:\GitHubDesktopSetup\188111541106\Javaformall\JDBC\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JDBCDemo2">
+  <component name="RunManager" selected="Application.JDBCDemo4">
     <configuration name="JDBCDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.JDBCDemo1" />
       <module name="JDBC" />
@@ -77,6 +77,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JDBCDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.JDBCDemo3" />
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.JDBCDemo4" />
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="JDBC" />
@@ -91,9 +117,13 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.JDBCDemo1" />
       <item itemvalue="Application.JDBCDemo2" />
+      <item itemvalue="Application.JDBCDemo3" />
+      <item itemvalue="Application.JDBCDemo4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBCDemo4" />
+        <item itemvalue="Application.JDBCDemo3" />
         <item itemvalue="Application.JDBCDemo2" />
         <item itemvalue="Application.JDBCDemo1" />
       </list>
@@ -109,7 +139,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605686567970</updated>
-      <workItem from="1605686570563" duration="4166000" />
+      <workItem from="1605686570563" duration="4320000" />
+      <workItem from="1605747955439" duration="1238000" />
     </task>
     <servers />
   </component>
@@ -126,5 +157,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1481" height="129" key="GridCell.Tab.0.bottom" timestamp="1605691660336">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="129" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605691660336" />
+    <state width="1481" height="129" key="GridCell.Tab.0.center" timestamp="1605691660336">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="129" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605691660336" />
+    <state width="1481" height="129" key="GridCell.Tab.0.left" timestamp="1605691660336">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="129" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605691660336" />
+    <state width="1481" height="129" key="GridCell.Tab.0.right" timestamp="1605691660336">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="129" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605691660336" />
   </component>
 </project>
