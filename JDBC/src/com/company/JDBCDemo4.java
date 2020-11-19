@@ -15,14 +15,14 @@ public class JDBCDemo4 {
         //3、获取数据库连接对象
         Connection conn= DriverManager.getConnection("jdbc:mysql://localhost:3306/malinlin","root","root");
         //4、定义sql
-        String sql= "select * from account where id=1";
+        String sql= "select * from account ";
         //5、获取数据库连接对象statement
         Statement stat=conn.createStatement();
         //6、执行sql
         ResultSet rs= stat.executeQuery(sql);
 
         //7、处理结果  columnlndex 列的索引
-        //rs.next(); 查询有无值
+        //rs.next();; 查询有无值
        /* while(rs.next()){
         int id=rs.getInt(1);
         String name=rs.getString(2);
