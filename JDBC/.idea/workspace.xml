@@ -55,20 +55,7 @@
       <recent name="D:\GitHubDesktopSetup\188111541106\Javaformall\JDBC\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JDBCDemo6">
-    <configuration name="JDBCDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.JDBCDemo3" />
-      <module name="JDBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.JDBCDemo7">
     <configuration name="JDBCDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.JDBCDemo4" />
       <module name="JDBC" />
@@ -108,6 +95,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JDBCDemo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.JDBCDemo7" />
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JDBCUtiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.utils.JDBCUtiles" />
       <module name="JDBC" />
@@ -122,19 +122,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JDBCDemo3" />
       <item itemvalue="Application.JDBCDemo4" />
       <item itemvalue="Application.JDBCDemo5" />
       <item itemvalue="Application.JDBCDemo6" />
       <item itemvalue="Application.JDBCUtiles" />
+      <item itemvalue="Application.JDBCDemo7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBCDemo7" />
         <item itemvalue="Application.JDBCDemo6" />
         <item itemvalue="Application.JDBCUtiles" />
         <item itemvalue="Application.JDBCDemo5" />
         <item itemvalue="Application.JDBCDemo4" />
-        <item itemvalue="Application.JDBCDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605686567970</updated>
       <workItem from="1605686570563" duration="4320000" />
-      <workItem from="1605747955439" duration="15081000" />
+      <workItem from="1605747955439" duration="17412000" />
     </task>
     <servers />
   </component>
@@ -173,38 +173,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605753920057" />
-    <state width="825" height="3" key="GridCell.Tab.0.bottom" timestamp="1605771345084">
+    <state width="1481" height="127" key="GridCell.Tab.0.bottom" timestamp="1605775805123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="825" height="3" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605771345084" />
-    <state width="825" height="3" key="GridCell.Tab.0.center" timestamp="1605771345084">
+    <state width="1481" height="127" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605775805123" />
+    <state width="1481" height="127" key="GridCell.Tab.0.center" timestamp="1605775805123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="825" height="3" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605771345084" />
-    <state width="825" height="3" key="GridCell.Tab.0.left" timestamp="1605771345084">
+    <state width="1481" height="127" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605775805123" />
+    <state width="1481" height="127" key="GridCell.Tab.0.left" timestamp="1605775805123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="825" height="3" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605771345084" />
-    <state width="825" height="3" key="GridCell.Tab.0.right" timestamp="1605771345084">
+    <state width="1481" height="127" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605775805123" />
+    <state width="1481" height="127" key="GridCell.Tab.0.right" timestamp="1605775805123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="825" height="3" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605771345084" />
-    <state width="825" height="3" key="GridCell.Tab.1.bottom" timestamp="1605771345085">
+    <state width="1481" height="127" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605775805123" />
+    <state width="1481" height="18" key="GridCell.Tab.1.bottom" timestamp="1605775603184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="825" height="3" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605771345085" />
-    <state width="825" height="3" key="GridCell.Tab.1.center" timestamp="1605771345085">
+    <state width="1481" height="18" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605775603184" />
+    <state width="1481" height="18" key="GridCell.Tab.1.center" timestamp="1605775603184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="825" height="3" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605771345085" />
-    <state width="825" height="3" key="GridCell.Tab.1.left" timestamp="1605771345084">
+    <state width="1481" height="18" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605775603184" />
+    <state width="1481" height="18" key="GridCell.Tab.1.left" timestamp="1605775603184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="825" height="3" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605771345084" />
-    <state width="825" height="3" key="GridCell.Tab.1.right" timestamp="1605771345085">
+    <state width="1481" height="18" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605775603184" />
+    <state width="1481" height="18" key="GridCell.Tab.1.right" timestamp="1605775603184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="825" height="3" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605771345085" />
+    <state width="1481" height="18" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605775603184" />
+    <state x="0" y="0" key="new project wizard" timestamp="1605773706638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1605773706638" />
     <state x="341" y="183" key="run.anything.popup" timestamp="1605756039715">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
