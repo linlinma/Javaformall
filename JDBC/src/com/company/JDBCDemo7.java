@@ -24,6 +24,7 @@ public class JDBCDemo7 {
         }else {
             System.out.println("用户名或密码错误，请重新登录");
         }
+
     }
     //登陆方法
     public static  boolean login(String name,String password){
