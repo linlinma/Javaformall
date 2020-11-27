@@ -4,7 +4,7 @@ server:
     context-path: /sell
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/sell?useUnicode=true&characterEcoding=utf8&serverTimezone=UTC
     username: root
     password: root

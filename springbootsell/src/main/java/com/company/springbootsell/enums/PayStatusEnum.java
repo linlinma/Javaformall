@@ -3,7 +3,7 @@ package com.company.springbootsell.enums;
 import lombok.Getter;
 
 @Getter
-public enum PayStatusMnum implements CodeEnum{
+public enum PayStatusEnum implements CodeEnum{
     WAIT(0,"等待支付"),
     SUCCESS(1,"")
 
@@ -11,7 +11,7 @@ public enum PayStatusMnum implements CodeEnum{
     private Integer code;
     private String message;
 
-    PayStatusMnum(Integer code, String message) {
+    PayStatusEnum(Integer code, String message) {
         this.code = code;
         this.message = message;
     }

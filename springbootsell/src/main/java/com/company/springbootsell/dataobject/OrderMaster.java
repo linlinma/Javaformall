@@ -1,6 +1,7 @@
 package com.company.springbootsell.dataobject;
 
 import com.company.springbootsell.enums.OrderStatusEnum;
+import com.company.springbootsell.enums.PayStatusEnum;
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;
 
@@ -21,7 +22,7 @@ public class OrderMaster {
     private String orderId;
 
     /** 买家名字 */
-    private String userName;
+    private String buyerName;
 
     /** 买家手机号 */
     private String buyerPhone;
@@ -30,7 +31,7 @@ public class OrderMaster {
     private String buyerAddress;
 
     /** 买家微信 openId*/
-    private String  buyerOpenId;
+    private String  buyerOpenid;
 
     /** 订单总金额 */
     private BigDecimal orderAmount;
@@ -39,7 +40,7 @@ public class OrderMaster {
     private Integer orderStatus = OrderStatusEnum.NEW.getCode();
 
     /** 支付状态 默认为0 未支付*/
-    private  Integer payStatus = 0;
+    private  Integer payStatus = PayStatusEnum.WAIT.getCode();
 
     /** 创建时间*/
     private Date createTime;

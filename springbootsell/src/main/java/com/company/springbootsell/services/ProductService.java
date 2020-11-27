@@ -8,18 +8,19 @@ import java.util.List;
 
 public interface ProductService {
     //查询一个商品
-   ProductInfo findOne(String produceId);
+   ProductInfo findOne(String productId);
    //查询一个商品
-    List<ProductInfo>  findUpAll;
+    List<ProductInfo>  findUpAll();
     //分页查询所有商品
-    Page<ProductInfo> fingAll(Pageable pageable);
+    Page<ProductInfo> findAll(Pageable pageable);
     //新增商品
     ProductInfo save(ProductInfo productInfo);
-    //上架
-    void increaseStock(String producuId);
+    //上架ProductInfo onSale(String productId);
+    ProductInfo onSale(String productId);
     //下架
-    void  decreaseStock(String productId);
+    ProductInfo offSale(String productId);
     //加库存
-
+    void increaseStock(String producuId);
     //减库存
+    void  decreaseStock(String productId);
 }

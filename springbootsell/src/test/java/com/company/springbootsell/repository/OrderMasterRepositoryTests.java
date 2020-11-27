@@ -21,14 +21,15 @@ public class OrderMasterRepositoryTests {
     @Test
     public void saveTest(){
         OrderMaster orderMaster = new OrderMaster();
-        orderMaster.setOrderId("12354");
-        orderMaster.setUserName("小丸子");
-        orderMaster.setBuyerPhone("139999");
-        orderMaster.setBuyerAddress("江科大那门");
-        orderMaster.setBuyerOpenId(OPENID);
-        orderMaster.setOrderAmount(new BigDecimal(12));
+        orderMaster.setOrderId("1235");
+        orderMaster.setBuyerName("小丸子");
+        orderMaster.setBuyerPhone("1399");
+        orderMaster.setBuyerAddress("江科大");
+        orderMaster.setBuyerOpenid(OPENID);
+        orderMaster.setOrderAmount(new BigDecimal(14));
 
-        OrderMaster result = repository.save(orderMaster);
+
+        OrderMaster result=repository.save(orderMaster);
         Assert.assertNotNull(result);
     }
 }
