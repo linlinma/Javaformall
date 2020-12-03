@@ -1,7 +1,11 @@
 package com.company.springbootsell.services.impl;
 
+import com.company.springbootsell.Exception.SellException;
 import com.company.springbootsell.dataobject.OrderMaster;
+import com.company.springbootsell.dataobject.ProductInfo;
 import com.company.springbootsell.enums.OrderStatusEnum;
+import com.company.springbootsell.enums.ProductStatusEnum;
+import com.company.springbootsell.enums.ResultEnum;
 import com.company.springbootsell.repository.OrderMasterRepository;
 import com.company.springbootsell.services.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +20,8 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private OrderMasterRepository repository;
     @Override
-    public OrderMaster findOne(String orderId) {
+    public  OrderMaster findOne(String orderId) {
+
         return repository.findOne(orderId);
     }
 
@@ -36,6 +41,16 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public OrderMaster save(OrderMaster orderMaster) {
+        return repository.save(orderMaster);
+    }
+
+    @Override
+    public OrderMaster offOrder(String orderId) {
+        OrderMaster orderMaster= repository.findOne(orderId);
+        if (orderMaster.getOrderStatus()==0){
+            orderMaster.setOrderStatus(2);
+        }
+
         return repository.save(orderMaster);
     }
 }

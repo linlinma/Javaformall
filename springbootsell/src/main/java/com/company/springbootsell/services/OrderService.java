@@ -9,7 +9,7 @@ import org.springframework.data.domain.Pageable;
 import java.util.List;
 
 public interface OrderService {
-    public OrderMaster findOne(String orderId);
+    public  OrderMaster findOne(String orderId);
 
     public List<OrderMaster> findAll();
 
@@ -19,5 +19,7 @@ public interface OrderService {
     public List<OrderMaster> findByOrderIdIn(List<Integer> orderList);
 
     public OrderMaster save(OrderMaster orderMaster);
+
+    OrderMaster offOrder(String orderId);
 
 }

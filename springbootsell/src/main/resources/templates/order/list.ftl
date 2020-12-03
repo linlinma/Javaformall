@@ -53,10 +53,10 @@
                     <#--                    pull-right 控件靠右-->
                     <ul class="pagination pull-right">
 
-                        <#if currrentPage lte 1>
+                        <#if currentPage lte 1>
                             <li class="disabled"><a href="#">上一页</a></li>
                         <#else >
-                            <li ><a href="/seller/order/list?page=${currrentPage-1}&size=${size}">上一页</a></li>
+                            <li ><a href="/seller/order/list?page=${currentPage-1}&size=${size}">上一页</a></li>
                         </#if>
 
                         <#--               1.. val 代表从1 开始循环       获取查询数据的总页数  ${productInfoPage.getTotalPages()  }-->
