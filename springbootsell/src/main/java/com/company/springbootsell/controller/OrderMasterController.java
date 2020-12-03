@@ -52,7 +52,7 @@ public ModelAndView index(@RequestParam(value = "orderId", required = false) Str
     }
     List<OrderMaster> orderMasterList = orderService.findAll();
     map.put("orderMasterList", orderMasterList);
-    return new ModelAndView("product/index");
+    return new ModelAndView("order/index");
 }
     @PostMapping("/save")
     public ModelAndView save(@Valid OrderForm form,
