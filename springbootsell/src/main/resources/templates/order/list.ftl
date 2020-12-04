@@ -36,7 +36,7 @@
                                 <td>${orderMaster.payStatus}</td>
                                 <td>${orderMaster.createTime}</td>
                                 <td>
-                                    <a href="/seller/order/index?orderId=${orderMaster.orderId}">修改</a>
+                                    <a href="/seller/order/index?orderId=${orderMaster.orderId}">详情</a>
                                 </td>
                                 <td>
                                     <#if orderMaster.orderStatus == 0>

@@ -1,11 +1,13 @@
 package com.company.springbootsell.controller;
 
 import com.company.springbootsell.Exception.SellException;
+import com.company.springbootsell.dataobject.OrderDetail;
 import com.company.springbootsell.dataobject.OrderMaster;
 import com.company.springbootsell.dataobject.ProductCategory;
 import com.company.springbootsell.dataobject.ProductInfo;
 import com.company.springbootsell.form.OrderForm;
 import com.company.springbootsell.form.ProductForm;
+import com.company.springbootsell.services.OrderDetailService;
 import com.company.springbootsell.services.OrderService;
 import com.company.springbootsell.utils.KeyUtil;
 import me.chanjar.weixin.mp.builder.kefu.MpNewsBuilder;
@@ -31,6 +33,8 @@ import java.util.Map;
 public class OrderMasterController {
 @Autowired
     private OrderService orderService;
+@Autowired
+private OrderDetailService orderDetailService;
 @GetMapping("/list")
     public ModelAndView list(@RequestParam(value = "page",defaultValue = "1") Integer page,
                              @RequestParam(value = "size",defaultValue = "5")Integer size,
@@ -50,8 +54,8 @@ public ModelAndView index(@RequestParam(value = "orderId", required = false) Str
         OrderMaster orderMaster = orderService.findOne(orderId);
         map.put("orderMaster", orderMaster);
     }
-    List<OrderMaster> orderMasterList = orderService.findAll();
-    map.put("orderMasterList", orderMasterList);
+    List<OrderDetail> orderDetails = orderDetailService.find(orderId);
+    map.put("orderDetails", orderDetails);
     return new ModelAndView("order/index");
 }
     @PostMapping("/save")

@@ -97,10 +97,10 @@ public class SellerProductController {
             productService.offSale(productId);
         }catch (SellException e){
             map.put("msg",e.getMessage());
-            map.put("url","seller/product/list");
+            map.put("url","/seller/product/list");
             return new ModelAndView("common/error",map);
         }
-        map.put("url","seller/product/list");
+        map.put("url","/seller/product/list");
         return new ModelAndView("common/success",map);
     }
 
@@ -112,11 +112,11 @@ public class SellerProductController {
             productService.onSale(productId);
         }catch (SellException e){
             map.put("msg",e.getMessage());
-            map.put("url","seller/product/list");
+            map.put("url","/seller/product/list");
             return new ModelAndView("common/error",map);
         }
-        map.put("url","seller/product/list");
-        return new ModelAndView("common/success",map);
+        map.put("url","/seller/product/list");
+        return new ModelAndView("common/success",map);//common/success
     }
 
 }
